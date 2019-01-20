@@ -76,8 +76,11 @@ $('#depart3').click(function(){
 
 //animation avec avec animate
 $('#depart4').click(function(){
-
-  	$('#vert').animate({height: '380px'});
+	
+	$('#rouge').animate({height: '200px', opacity: 0.4}, "slow");
+  	$('#rouge').animate({width: '200px', opacity: 0.8}, "slow");
+  	$('#vert').animate({height: '200px', left: '200px', opacity: 0.4}, "slow");
+	$('#vert').animate({width: '200px', left: '200px', opacity: 0.8}, "slow");
 
 });
 
